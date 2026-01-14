@@ -1,3 +1,4 @@
+#Perplexity AI was used to assist in drafting and troubleshooting of this R scripts
 # analyze_zebrafish_expression.R
 # Purpose: Analyze zebrafish gene expression using `lfc_all.csv` and `MoA_classification.csv`.
 # - Handles semicolon-delimited CSVs; decimal comma in lfc_all
@@ -798,3 +799,4 @@ readme_text <- c(
 writeLines(readme_text, con = file.path(OUTPUT_DIR, "README_outputs.txt"))
 
 message("Done. Outputs are in the 'outputs' directory.")
+
